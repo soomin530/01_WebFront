@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>11_연습문제2</title>
+    </head>
+    <body>
+        <form>
+            <fieldset>
+                <legend>납품자 정보</legend> <br>
+                <label>1. 납품자명 : </label>
+                <input type="text"> <br><br>
+
+                <label>2. email : </label>
+                <input type="text" placeholder="answer@naver.com"> <br><br>
+
+                <label>3. 홈페이지 : </label>
+                <input type="text" value="https://"> <br><br>
+
+                <label>4. 지역 : </label>
+                <select name="지역" id="지역">
+                    <option selected>부산</option>
+                    <option>서울</option> 
+                    <option>대전</option> 
+                    <option>대구</option>
+                    <option>청주</option>
+                </select> <br><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>납품 정보</legend> <br>
+                    <ul>
+                        <li>
+                            <label>상품명 : </label>
+                            <input type="text"> <br><br>
+                        </li>
+
+                        <li>
+                            <labelel>납품수량 : </labelel>
+                            <input type="text" placeholder="최소100"> <br><br>
+                        </li>
+
+                        <li>
+                            <label>납품등급 : </label>
+                            <input type="range"> <br><br>
+                        </li>
+
+                        <li>
+                        <label>기타사항 : </label>
+                        <textarea rows="4"></textarea> <br><br>
+                        </li>
+                    </ul>        
+
+                </fieldset> <br>
+                    <button>Send message</button>
+
+        </form>
+    </body>
+</html>

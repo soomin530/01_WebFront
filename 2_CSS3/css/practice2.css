@@ -1,0 +1,46 @@
+div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 500px;
+
+    flex-direction: column;
+}
+.header {
+    background-color: red;
+    flex-basis: 20%;
+}
+
+.body {   
+    display: flex;
+    flex-basis: 80%;
+}
+
+.body-item1 {
+    background-color: yellow;
+    flex-basis: 25%;
+}
+
+.body-item2 {
+    flex-basis: 75%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.item2-1 {
+    background-color: greenyellow;
+    flex-basis: 80%;
+}
+
+.item2-2 {
+    background-color: blue;
+    flex-basis: 20%;
+}
+
+
+
