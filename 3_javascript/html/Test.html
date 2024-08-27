@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="../css/Test.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>너비 : </th>
+            <td>
+                <input type="number" id="wid"> px
+            </td>
+
+            <th>높이 : </th>
+            <td>
+                <input type="number" id="hei"> px
+            </td>
+        </tr>
+        <tr>
+            <th>글자크기 : </th>
+            <td>
+                <input type="number" id="fs"> px
+            </td>
+
+            <th>굵기 : </th>
+            <td>
+                보통 <input type="radio" name="weight" value="normal">
+                굵게 <input type="radio" name="weight" value="bold">
+            </td>
+        </tr>
+        <tr>
+            <th>글자색 : </th>
+            <td>
+                <input type="text" id="fc"> px
+            </td>
+
+            <th>배경색 : </th>
+            <td>
+                <input type="text" id="bc"> px
+            </td>
+        </tr>
+        <tr>
+            <th>가로정렬 : </th>
+            <td colspan="3">
+                왼쪽 <input type="radio" name="align-row" value="flex-start">
+                가운데 <input type="radio" name="align-row" value="center">
+                오른쪽 <input type="radio" name="align-row" value="flex-end">
+            </td>
+        </tr>
+        <tr>
+            <th>세로정렬 : </th>
+            <td colspan="3">
+                위 <input type="radio" name="align-col" value="flex-start">
+                가운데 <input type="radio" name="align-col" value="center">
+                아래 <input type="radio" name="align-col" value="flex-end">
+            </td>
+        </tr>
+        <tr>
+            <th>출력 문자열 : </th>
+            <td colspan="3">
+                <input type="text" id="str">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="4">
+                <button id="btn">적용하기</button>
+            </th>
+        </tr>
+
+
+    </table>
+
+
+    <div id="box">aaa</div>
+
+
+
+
+
+</body>
+<script src="../js/Test.js"></script>
+
+</html>

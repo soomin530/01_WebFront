@@ -1,0 +1,15 @@
+table, #box{
+    margin: auto;
+    
+    /* tr태그 사이 간격 주기 */
+    border-spacing: 0px 20px; 
+}
+
+
+#box{
+    border: 2px solid black;
+    padding: 2px;
+    width: 10px;
+    height: 10px;
+    display: flex;
+}
